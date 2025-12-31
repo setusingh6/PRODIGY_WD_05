@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="page1">
+           <div id="top_navbar">
+    <div class="welcome">
+        <h1>Welcome<br>
+        Tanishka Mandil</h1>
+    </div>
+
+    <div class="search_box">
+        <i class="ri-search-2-line"></i>
+        <input type="text" id="cityInput" placeholder="Search city for weather..." />
+
+    </div>
+
+    <div class="nav_icons">
+        <i class="ri-add-line"></i>
+        <i class="ri-notification-2-line"></i>
+    </div>
+</div>
+
+            <div id="side_bar">
+                <div id="nav_icon">
+                    <h3><i class="ri-list-check"></i></h3>
+                    <h3><i class="ri-soundcloud-line"></i></h3>
+                    <h3><i class="ri-time-zone-line"></i></h3>
+                    <h3><i class="ri-calendar-line"></i></h3>
+                    <h3><i class="ri-settings-5-line"></i></h3>
+                </div>
+            </div>
+            <div id="mid-content">
+                <h1>Check near you.</h1>
+                <p>Check weather near you so <br>
+                are always one step ahead <br>
+            plan your day and make most out of it.</p>
+            </div>
+           <div id="side-content">
+  <h2 id="cityName">🌍 Enter a city</h2>
+  <div id="weatherIcon">☀️</div>
+  <h1 id="temp">--°C</h1>
+  <p id="weatherDesc">Weather info will appear here</p>
+  <p id="humidity">💧 Humidity: --%</p>
+  <p id="wind">💨 Wind: -- m/s</p>
+  <p id="sunrise">🌅 Sunrise: --:--</p>
+  <p id="sunset">🌇 Sunset: --:--</p>
+</div>
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
